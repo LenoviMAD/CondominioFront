@@ -1,0 +1,30 @@
+//--------------------------------------------------
+// Menu
+//--------------------------------------------------
+.q-drawer {
+    z-index: 5000;
+}
+.menu {
+    &.menu-a {
+        background-color: white;
+    }
+}
+
+//--------------------------------------------------
+// Media querys
+//--------------------------------------------------
+/* >= col-lg | Large and up*/
+@media (min-width: 1200px) {
+}
+
+/* == col-md |Medium only col-md */
+@media (min-width: 992px) and(max-width : 1199px) {
+}
+
+/* == col-sm Small only col-sm */
+@media (min-width: 768px) and(max-width : 991px) {
+}
+
+/* < col-sm | Small and down */
+@media (max-width: 767px) {
+}
